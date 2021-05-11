@@ -1,0 +1,51 @@
+* {
+    margin: none;
+    background-color: #888;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 14px;
+}
+.box {
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.box1, .box2 {
+    padding: 20px;
+}
+.box1 {
+    width: 200px;
+    height: 550px;
+    background-color: #2b4c99;
+    border-radius: 10px 0px 0px 10px;
+}
+.box2 {
+    width: 400px;
+    height: 550px;
+    background-color: #0079c7;
+    border-radius: 0px 10px 10px 0px;
+}
+form {
+    background-color: transparent;
+}
+input {
+    background-color: rgb(199, 200, 202);
+    border-radius: 10px;
+    border-color: transparent;
+    color: #000;
+    margin: 5px;
+}
+input .submit{
+    color: black;
+} 
+option, select, button {
+    background-color: #888;
+    border-radius: 5px;
+    border-color: transparent;
+    color: #000;
+    margin: 5px;
+} 
+.register {
+    padding: 5px;
+}
