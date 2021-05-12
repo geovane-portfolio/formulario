@@ -17,6 +17,14 @@ body {
 .box1, .box2 {
     padding: 20px;
 }
+img {
+    height: 70px;
+    border-radius: 50%;
+}
+.img {
+    text-align: center;
+    margin-bottom: 30px;
+}
 .box1 {
     width: 200px;
     height: 550px;
@@ -30,8 +38,18 @@ body {
     background-color: #5d5d5d;
     background: linear-gradient(#5d5d5d, #7d7d7d);
     border-radius: 0px 10px 10px 0px;
-    text-align-last: justify;
-
+}
+.inter-box {
+    display: flex;
+}
+.inter-box1 {
+     flex: 1;
+     text-align:right;
+     padding: 10px;
+}
+.inter-box2 {
+    flex: 1;
+    align-content: flex-end;
 }
 h1 {
     font-size: 20px;
@@ -59,6 +77,11 @@ option, select, button {
     color: #fff;
     margin: 5px;
 } 
+select {
+    background-color: #5d5d5d;
+    border-radius: 10px;
+    padding: 2px;
+}
 .register {
     padding: 5px;
 }

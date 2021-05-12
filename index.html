@@ -10,53 +10,44 @@
     <header>
         <div class="box">
             <div class="box1">
-                <h1>Entrar</h1></br>
+                <div class="img">
+                    <img src="images/login.png"></br>
+                </div>
+
+                <h1>Login</h1></br>
+
                 <form action="" method="GET">
-                    Usuário</br>
                     <input type="text" name="usuario" placeholder="Usuário"/></br>
 
-                    Senha</br>
-                    <input type="password" name="senha"/></br></br>
+                    <input type="password" name="Senha" placeholder="Senha"/></br></br>
 
-                    <button>Enviar</button>
+                    <button>Login</button>
                 </form>
             </div>
 
             <div class="box2">
-                <h1>Cadastrar</h1></br>
-                <form>
-                    Nome
-                    <input type="text" name="name" placeholder="Ex.: Nome"/></br>
-                    Sobrenome
-                    <input type="text" name="lastname" placeholder="Ex.: Sobrenome"/></br>
-                    E-mail
-                    <input type="email" placeholder="Ex.: text@gmail.com"></br>
-                    Sexo
-                    <select type="order" size="1">
-                        <option>Masculino</option>
-                        <option>Feminino</option>
-                        <option>Outro</option>
-                    </select></br>
-                    Crie uma senha
-                    <input type="password"></br>
-                    Repetir senha
-                    <input type="password"></br>
-                    CPF
-                    <input type="text" placeholder="Ex.: 000.000.000-00"></br>
-                    Nascimento
-                    <input type="date"></br>
-                    
-                    Celular
-                    <input type="text" placeholder="Ex.: (00) 0-0000-0000"></br>
-                    Cep
-                    <input type="text" placeholder="Ex.: 00000-000"></br></br>
-                
-                    <input type="checkbox"/>
-                    Eu declaro que li e aceito os termos de uso.</br>
-                    </br>
-
-                    <button class="register">Fazer Cadastro</button>
-                </form>
+                <h1>Cadastro</h1></br>
+                    <form>
+                        <input type="text" name="name" placeholder="Nome"/></br>
+                        <input type="text" name="lastname" placeholder="Sobrenome"/></br>
+                        <input type="email" name="email" placeholder="E-mail"></br>
+                        <select type="order" name="sexo" size="1">
+                            <option selected>Sexo</option>
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                            <option>Outro</option>
+                        </select></br>
+                        <input type="password" name="password" placeholder="Senha"></br>
+                        <input type="password" name="password" placeholder="Confirmar Senha"></br>
+                        <input type="text" name="cpf" placeholder="CPF: 000.000.000-00"></br>
+                        <input type="text" onfocus="(this.type='date')" name="birth" placeholder="Nascimento"></br>
+                        <input type="text" name="phone" placeholder="Fone:(00) 0-0000-0000"></br>
+                        <input type="text" name="zipcode" placeholder="CEP:00000-000"></br></br>
+                        <label><input type="checkbox"/>
+                        Eu declaro que li e aceito os termos de uso.</br></br>
+                        </label>
+                        <button class="register">Confirmar</button>
+                    </form>
             </div>
 
         </div>
