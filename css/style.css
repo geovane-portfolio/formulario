@@ -1,9 +1,12 @@
 * {
-    margin: none;
-    background-color: #888;
+    margin: 0px;
     color: #fff;
     font-family:sans-serif;
     font-size: 14px;
+    
+}
+body {
+    background-color: #000;
 }
 .box {
     max-width: 600px;
@@ -17,20 +20,29 @@
 .box1 {
     width: 200px;
     height: 550px;
-    background-color: #2b4c99;
+    background-color: #1e1e1e;
+    background: linear-gradient(#1e1e1e, #3e3e3e);
     border-radius: 10px 0px 0px 10px;
 }
 .box2 {
     width: 400px;
     height: 550px;
-    background-color: #0079c7;
+    background-color: #5d5d5d;
+    background: linear-gradient(#5d5d5d, #7d7d7d);
     border-radius: 0px 10px 10px 0px;
+    text-align-last: justify;
+
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
 }
 form {
     background-color: transparent;
 }
 input {
-    background-color: rgb(199, 200, 202);
+    align-items: flex-end;
+    background-color: #d8d8d8;
     border-radius: 10px;
     border-color: transparent;
     color: #000;
@@ -40,10 +52,11 @@ input .submit{
     color: black;
 } 
 option, select, button {
-    background-color: #888;
+    background-color: #084d6e;
+    background: linear-gradient( -60deg,#084d6e, #085d7e);
     border-radius: 5px;
     border-color: transparent;
-    color: #000;
+    color: #fff;
     margin: 5px;
 } 
 .register {
