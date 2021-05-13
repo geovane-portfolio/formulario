@@ -3,16 +3,18 @@
     color: #fff;
     font-family:sans-serif;
     font-size: 14px;
-    
 }
 body {
-    background-color: #000;
+    background: url(../images/fundo.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+
 }
 .box {
-    max-width: 600px;
-    display: flex;
-    margin: auto;
-    margin-top: 20px;
+    height: 620px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .box1, .box2 {
     padding: 20px;
@@ -27,29 +29,20 @@ img {
 }
 .box1 {
     width: 200px;
-    height: 550px;
+    height: 450px;
     background-color: #1e1e1e;
-    background: linear-gradient(#1e1e1e, #3e3e3e);
+    background: linear-gradient(#1e1e1e, #3e3e3e,);
     border-radius: 10px 0px 0px 10px;
+    opacity: 0.95;
 }
 .box2 {
-    width: 400px;
-    height: 550px;
+    width: 300px;
+    height: 450px;
     background-color: #5d5d5d;
     background: linear-gradient(#5d5d5d, #7d7d7d);
     border-radius: 0px 10px 10px 0px;
-}
-.inter-box {
-    display: flex;
-}
-.inter-box1 {
-     flex: 1;
-     text-align:right;
-     padding: 10px;
-}
-.inter-box2 {
-    flex: 1;
-    align-content: flex-end;
+    opacity: 0.95;
+    text-align: center;
 }
 h1 {
     font-size: 20px;
@@ -59,12 +52,12 @@ form {
     background-color: transparent;
 }
 input {
-    align-items: flex-end;
     background-color: #d8d8d8;
     border-radius: 10px;
     border-color: transparent;
     color: #000;
     margin: 5px;
+    
 }
 input .submit{
     color: black;
