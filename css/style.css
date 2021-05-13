@@ -48,6 +48,9 @@ h1 {
     font-size: 20px;
     text-align: center;
 }
+.box2 h1 {
+    font-size: 25px;
+}
 form {
     background-color: transparent;
 }
@@ -57,7 +60,7 @@ input {
     border-color: transparent;
     color: #000;
     margin: 5px;
-    
+
 }
 input .submit{
     color: black;
@@ -77,4 +80,26 @@ select {
 }
 .register {
     padding: 5px;
+}
+
+@media ( max-width: 500px){
+
+    .box {
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 20px;
+        width: auto;
+        text-align: center;
+    }
+    .box1, .box2 {
+        width: 300px;
+        height: 450px;
+    }
+    .box1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .box2 {
+        border-radius: 0px 0px 10px 10px;
+    }
 }
